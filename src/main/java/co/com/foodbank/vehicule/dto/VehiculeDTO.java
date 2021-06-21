@@ -1,6 +1,7 @@
 package co.com.foodbank.vehicule.dto;
 
 import javax.validation.Valid;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
 /**
@@ -9,13 +10,15 @@ import javax.validation.constraints.Size;
 
 public class VehiculeDTO {
 
-    @Size(min = 5, max = 10, message = "Complete the brand.")
+    @Size(min = 3, max = 10, message = "Complete the brand.")
     public String brand;
 
-    @Size(min = 5, max = 6, message = "Complete the car plate.")
+    @Size(min = 3, max = 6, message = "Complete the car plate.")
     public String carPLate;
 
     // @ValidateVolume
+    @Pattern(regexp = "^[0-9]{1,3}$",
+            message = "Only numbers 0 to 9 in capacity")
     public String capacity;
 
     @Valid
