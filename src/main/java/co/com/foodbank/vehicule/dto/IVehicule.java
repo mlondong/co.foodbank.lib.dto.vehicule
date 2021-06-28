@@ -1,5 +1,7 @@
 package co.com.foodbank.vehicule.dto;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 /**
  * @author mauricio.londono@gmail.com co.com.foodbank.vehicule.dto 16/05/2021
  */
@@ -12,5 +14,6 @@ public interface IVehicule {
 
     public String getBrand();
 
+    @JsonIgnore(value = true)
     public String getId();
 }
