@@ -1,4 +1,4 @@
-package co.com.foodbank.vehicule.dto;
+package co.com.foodbank.vehicule.interfaces;
 
 /**
  * @author mauricio.londono@gmail.com co.com.foodbank.vehicule.dto 16/05/2021
