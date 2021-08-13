@@ -1,6 +1,6 @@
 package co.com.foodbank.vehicule.dto;
 
-import co.com.foodbank.vehicule.interfaces.IVolume;
+import co.com.foodbank.vehicule.dto.interfaces.IVolume;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

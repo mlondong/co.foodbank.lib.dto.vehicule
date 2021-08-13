@@ -1,4 +1,4 @@
-package co.com.foodbank.vehicule.interfaces;
+package co.com.foodbank.vehicule.dto.interfaces;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
