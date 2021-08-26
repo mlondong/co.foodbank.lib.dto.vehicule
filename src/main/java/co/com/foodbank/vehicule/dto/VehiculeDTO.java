@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class VehiculeDTO {
 
-    @Size(min = 3, max = 10, message = "Complete the brand.")
+    @Size(min = 3, max = 20, message = "Complete the brand.")
     public String brand;
 
     @Size(min = 3, max = 6, message = "Complete the car plate.")
